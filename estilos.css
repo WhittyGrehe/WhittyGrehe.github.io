@@ -1,0 +1,51 @@
+.fondo{
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-justify: auto;
+    border: black 2px solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.InfoPersonal{
+    text-align: center;
+    border: black 2px solid;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: rgb(199,199,238);
+}
+
+.Link{
+    background-color: rgb(235,241,214);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border: black 2px solid;
+    text-align: center;
+}
+
+.InfoProgramador{
+    text-align: center;
+    border: black 2px solid;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: rgb(199,199,238);
+}
+
+.Lenguajes{
+    text-align: center;
+    border: black 2px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: aqua;
+}
+
+.Framework{
+    text-align: center;
+    border: black 2px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: darkblue;
+}
