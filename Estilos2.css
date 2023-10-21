@@ -1,0 +1,65 @@
+.Body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Div1{
+    float: right;
+    width: 100px;
+}
+
+.Informe {
+    text-align: justify;
+}
+
+.ul, li {
+    color: black;
+}
+
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+    background-color: yellow;
+}
+
+.tr, td{
+    border: 1px solid rgb(255, 182, 87);
+}
+
+.td {
+    text-align: center;
+}
+
+.Nota {
+    text-align: center;
+}
+
+.Folio {
+    color: red;
+}
+
+.Link {
+    text-align: justify;
+}
+
+.PaginaWeb {
+    color: greenyellow;
+}
+
+
+table tr:nth-child(even){
+    background-color: rgba(255, 164, 220, 0.623);
+}
+
+table tr:nth-child(odd){
+    background-color: white;
+}
+
+table {
+    margin: 0 auto;
+}
+
