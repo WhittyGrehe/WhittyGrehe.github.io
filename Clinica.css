@@ -7,7 +7,7 @@ body {
     background-color: white;
     width: 8.6in;
     height: 11in;
-    box-shadow: 10px 10px 10px;;
+    box-shadow: 10px 10px 10px;
     background-image: url("imagenes2/fondoSanJose.png");
     background-size: 50%;
     background-position: center center;
@@ -22,8 +22,9 @@ body {
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
-    font-size: small;
-    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
 }
 
 .table,th,td {
@@ -34,6 +35,10 @@ body {
 
 .Analisis {
     background-color: gray;
+}
+
+.float {
+    float: right;
 }
 
 .IMG-Firma {
