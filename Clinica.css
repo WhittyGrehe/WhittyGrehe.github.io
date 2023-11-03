@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+.Hoja {
+    background-color: white;
+    width: 8.6in;
+    height: 11in;
+    box-shadow: 10px 10px 10px;;
+    background-image: url("imagenes2/fondoSanJose.png");
+    background-size: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.IMG-Encabezado{
+    width: 100%;
+}
+
+.Impresion {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: small;
+    text-align: right;
+}
+
+.table,th,td {
+    text-align: center;
+    border-radius: 5px;
+    
+    border: 1px solid black;
+}
+
+.Analisis {
+    background-color: gray;
+}
+
+.IMG-Firma {
+    width: 30%;
+    margin-left: 540px;
+}
+
+.Firma {
+    float: right;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+.IMG-PiePagina {
+    width: 100%;
+}
+
+
+
