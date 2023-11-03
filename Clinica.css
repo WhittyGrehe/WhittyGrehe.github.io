@@ -55,13 +55,13 @@ body {
 }
 
 .IMG-Firma {
-    width: 30%;
-    margin-left: 540px;
+    width: 20%;
+    margin-left: 570px;
 }
 
 .Firma {
     float: right;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     clear: both;
 }
