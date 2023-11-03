@@ -7,7 +7,7 @@ body {
     background-color: white;
     width: 8.6in;
     height: 11in;
-    box-shadow: 10px 10px 10px;
+    box-shadow: 10px 10px 50px;
     background-image: url("imagenes2/fondoSanJose.png");
     background-size: 50%;
     background-position: center center;
@@ -23,7 +23,9 @@ body {
 
 .Impresion {
     border: 1px solid black;
-    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -31,20 +33,28 @@ body {
     margin-right: 20px;
 }
 
-.table{
-    margin-left: 20px;
-    margin-bottom: 30px;
+.DatosPaciente th,
+.DatosPaciente td {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
-.tr,th,td {
-    text-align: center;
-    border-radius: 5px;
-    border: 1px solid black;
+.table{
+    width: 100%;
+}
+
+.DatosPaciente {
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 20px;
+    clear: both;
 }
 
 .Analisis {
-    padding: 5px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
     margin-right: 20px;
     margin-left: 20px;
     background-color: gray;
