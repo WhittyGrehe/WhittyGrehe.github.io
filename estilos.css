@@ -10,6 +10,28 @@
     box-shadow: 10px 10px 10px grey;
 }
 
+.parte_presentacion{
+    background-color: rgb(237, 211, 172);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: black 2px solid;
+}
+
+.cartel_titulo1{
+        background-color: rgb(239, 239, 241);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+}
+                        
+.cartel_titulo2{
+        background-color: rgb(239, 239, 241);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: black 2px solid;
+}
+
 .InfoPersonal{
     text-align: center;
     border: black 2px solid;
@@ -32,44 +54,74 @@
     padding-top: 35px;
     padding-bottom: 35px;
     background-color: rgb(199,199,238);
+    display: flex;
 }
 
-.Lenguajes{
-    text-align: center;
-    border: black 2px solid;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: aqua;
-}
-
-.Link table {
+table {
     margin: 0 auto;
 }
 
-.table, th, td {
-    border: 1px solid black;
+table, td, th{
+    border: 2px solid black;
     border-collapse: collapse;
-    text-align: center;
+    }
+
+th {
     background-color: yellow;
-}
+    }
 
-.th, td {
-    padding: 15px;
-    background-color: aquamarine;
-}
-
-.td {
-    text-align: center;
+td{
+    background-color: aqua;
 }
 
 .ul, li {
     text-align: left;
 }
 
-.Framework{
-    text-align: center;
-    border: black 2px solid;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: darkblue;
-}
+main {
+    display: grid;
+    grid-template-areas: 
+    "h h h"
+    ". f ."
+    "i t l";
+    }
+    
+    @media screen and (max-width: 480px) {
+        main{
+            display: grid;
+            grid-template-areas: 
+            "h"
+            "f"
+            "i"
+            "t"
+            "l";
+        }
+    }
+    
+    header {
+    grid-area: h;
+    }
+    
+    section#foto {
+    grid-area: f;
+    }
+    
+    section#info{
+    grid-area: i;
+    }
+    
+    section#lista {
+    grid-area: l;
+    }
+
+    section#tabla {
+        grid-area: t;
+        }
+    
+    section{
+        display: block;
+    }
+
+    body{
+        width: 100%;
+    }
