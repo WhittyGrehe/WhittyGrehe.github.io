@@ -15,6 +15,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
     border: black 2px solid;
+    width: 100%;
 }
 
 .cartel_titulo1{
@@ -93,24 +94,24 @@ td{
     text-align: left;
 }
 
+@media screen and (max-width: 1500px) {
+    main{
+        display: grid;
+        grid-template-areas: 
+        "h"
+        "f"
+        "i"
+        "t"
+        "l";
+    }
+}
+
 main {
     display: grid;
     grid-template-areas: 
     "h h h"
     ". f ."
     "i t l";
-    }
-    
-    @media screen and (max-width: 480px) {
-        main{
-            display: grid;
-            grid-template-areas: 
-            "h"
-            "f"
-            "i"
-            "t"
-            "l";
-        }
     }
     
     header {
@@ -132,11 +133,7 @@ main {
     section#tabla {
         grid-area: t;
         }
-    
-    section{
-        display: block;
-    }
-
+        
     body{
         width: 100%;
     }
