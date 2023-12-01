@@ -1,0 +1,96 @@
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.Rosa{
+    background-color: pink;
+}
+
+.Naranjared{
+    background-color: orangered;
+}
+
+
+
+.Azul{
+    background-color: blue;
+}
+
+.Blanco{
+    background-color: gray;
+}
+
+.Barra{
+    background-color: gray;
+}
+
+@media screen and (max-width: 1500px) {
+    main{
+        display: grid;
+        grid-template-areas: 
+        "h"
+        "s"
+        "a"
+        "f";
+    }
+}
+
+main {
+    display: grid;
+    grid-template-areas: 
+    "h h"
+    "s a"
+    "f f";
+    }
+
+    header {
+        grid-area: h;
+        }
+        
+        section#Sesion {
+        grid-area: s;
+        }
+        
+        section#side{
+        grid-area: a;
+        }
+
+        section#copyright{
+            grid-area: f;
+        }
+
+        div#Articles{
+            display: grid;
+            grid-template-areas: 
+            "art1 art2"
+            "art3 art4";
+        }
+
+        article{
+            background-color: orange;
+        }
+
+        #art1{
+            background-color: orange;
+            grid-area: art1;
+        }
+
+        #art2{
+            background-color: orange;
+            grid-area: art2;
+        }
+
+        #art3{
+            background-color: orange;
+            grid-area: art3;
+        }
+
+        #art4{
+            background-color: orange;
+            grid-area: art4;
+        }
+
+        p{
+            background-color: blueviolet;
+        }
