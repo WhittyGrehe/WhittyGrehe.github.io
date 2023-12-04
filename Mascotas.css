@@ -1,10 +1,17 @@
 main{
-    color:D8AA96 F7B1AB 807182 333;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d8aa96;
 }
 
 .info{
     background-color: pink;
     color: gray;
+}
+
+Button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 1500px) {
