@@ -6,3 +6,38 @@ main{
     background-color: pink;
     color: gray;
 }
+
+@media screen and (max-width: 1500px) {
+    main{
+        display: grid;
+        grid-template-areas: 
+        "h"
+        "s"
+        "a"
+        "f";
+    }
+}
+
+main {
+    display: grid;
+    grid-template-areas: 
+    "h h"
+    "s a"
+    "f f";
+    }
+
+    header {
+        grid-area: h;
+        }
+        
+        section#Sesion {
+        grid-area: s;
+        }
+        
+        section#Perro{
+        grid-area: a;
+        }
+
+        section#Botones{
+            grid-area: f;
+        }
