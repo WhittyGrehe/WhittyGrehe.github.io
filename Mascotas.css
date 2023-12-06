@@ -50,9 +50,9 @@ h2{
 main {
     display: grid;
     grid-template-areas: 
-    "h h"
-    "a s"
-    "f f";
+    "h h h"
+    "a s s"
+    "f f f";
     }
 
     header {
