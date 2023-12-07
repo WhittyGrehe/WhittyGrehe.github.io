@@ -40,6 +40,22 @@ h2{
     background-color: white;
 }
 
+header{
+    display: block;
+}
+
+section{
+    display: block;
+}
+
+aside{
+    display: block;
+}
+
+footer{
+    display: block;
+}
+
 @media screen and (max-width: 1500px) {
     main{
         display: grid;
